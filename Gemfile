@@ -44,3 +44,27 @@ group :development, :test do
   gem 'spring'
 end
 
+
+group :development do
+	gem 'capistrano', '~> 3.1'
+	gem 'capistrano-rbenv', '~> 2.0'
+	gem 'capistrano-rails', '~> 1.1.0'
+	# gem 'capistrano', '~> 3.1.0'
+	# # rails specific capistrano funcitons
+	# gem 'capistrano-rails', '~> 1.1.0'
+	# # integrate bundler with capistrano
+	# gem 'capistrano-bundler'
+	# # if you are using RBENV
+	# gem 'capistrano-rbenv', "~> 2.0" 
+	# gem 'capistrano-rvm'
+	# gem 'capistrano-safe-deploy-to', '~> 1.1.1'
+	# gem 'capistrano-unicorn-nginx', '~> 3.1.0'
+	# gem 'capistrano-secrets-yml', '~> 1.0.0'
+	# gem 'capistrano-postgresql', '~> 4.1.0'
+	# gem 'capistrano-faster-assets', '~> 1.0'
+	# gem 'capistrano-ssh-doctor', '~> 1.0'
+	# gem 'capistrano-memcached', '~> 1.0'
+	# gem 'capistrano-delayed-job', '~> 1.0'
+	# gem 'capistrano-rbenv-install', '~> 1.2.0'
+end
+
