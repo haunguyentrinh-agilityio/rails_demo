@@ -56,7 +56,7 @@ group :development do
 	# # rails specific capistrano funcitons
 	# gem 'capistrano-rails', '~> 1.1.0'
 	# # integrate bundler with capistrano
-	# gem 'capistrano-bundler'
+	gem 'capistrano-bundler'
 	# # if you are using RBENV
 	# gem 'capistrano-rbenv', "~> 2.0" 
 	# gem 'capistrano-rvm'
