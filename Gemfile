@@ -58,7 +58,7 @@ group :development do
 	# # integrate bundler with capistrano
 	gem 'capistrano-bundler'
 	# # if you are using RBENV
-	# gem 'capistrano-rbenv', "~> 2.0" 
+	gem 'capistrano-rbenv', "~> 2.0" 
 	# gem 'capistrano-rvm'
 	# gem 'capistrano-safe-deploy-to', '~> 1.1.1'
 	# gem 'capistrano-unicorn-nginx', '~> 3.1.0'
